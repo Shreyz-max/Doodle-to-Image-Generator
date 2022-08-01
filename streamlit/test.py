@@ -13,8 +13,10 @@ id_list = [key['id'] for key in colorMap]
 
 
 def semantic(img):
+    print("semantic", type(img))
     h, w = img.size
-    pix = list(img.getdata())
+    imrgb = img.convert("RGB")
+    pix = list(imrgb.getdata())
     mask = [id_list[colors.index(i)] if i in colors else 156 for i in pix]
     return np.array(mask).reshape(h, w)
 
