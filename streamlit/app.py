@@ -8,6 +8,7 @@ import gdown
 
 
 st.set_page_config(layout="wide")
+
 # Specify canvas parameters in application
 drawing_object = st.sidebar.selectbox(
     "Object:", ("sea", "cloud", "bush", "grass", "mountain", "sky", "snow",
@@ -23,6 +24,7 @@ drawing_object_dict = {"sea": "rgb(56,79,131)", "cloud": "rgb(239,239,239)",
 stroke_width = st.sidebar.slider("Stroke width: ", 1, 25, 3)
 
 stroke_color = drawing_object_dict[drawing_object]
+
 
 col1, col2 = st.columns(2)
 with col1:
