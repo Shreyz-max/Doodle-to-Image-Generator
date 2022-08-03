@@ -3,7 +3,7 @@ This is an automatic realistic image generator from doodles using GauGan which h
 This uses GauGAN to generate the images given the semantic maps or doodles here.
 The model is based on Conditional GAN where given a particular image and a condition the realistic image gets generated.
 
-The model has been taken from nvidia labs SPADE released in 2019.
+The model has been taken from Nvidia labs SPADE released in 2019.
 ## Table of contents
 * <a href="#Idea">Idea</a>
 * <a href="#SampleResults">Sample Results</a>
