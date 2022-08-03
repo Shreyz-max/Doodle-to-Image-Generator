@@ -26,7 +26,7 @@ since not everyone is well versed with html and css. Hence, I deployed it on str
 <h2 id="SampleResults">Sample Results</h2>
 Here is the working of GauGAN in real life deployed on a website.
 
-<p align = "center"><img align = "center" src = "images/gaugan.gif" /></p>
+<p align = "center"><img align = "center" src = "images/gaugan.gif" width="720px"/></p>
 
 <h2 id="Dataset">Dataset</h2>
 Originally in the SPADE paper, the model was trained on 3 different datasets namely COCO, cityscapes and  ADE20K. Although, Flcikr dataset was also used however I am not so sure about the segmentation
@@ -77,12 +77,12 @@ Some other results to enjoy:
   <th>Realistic Image</th>
  </tr>
 <tr>
- <td><img src="images/try1.png" width="420px"/></td>
- <td><img src="images/try1.jpeg" width="420px"/></td>
+ <td><img src="images/try1.png" width="400px"/></td>
+ <td><img src="images/try1.jpeg" width="400px"/></td>
  </tr>
 <tr>
- <td><img src="images/try2.png" width="420px"/></td>
- <td><img src="images/try2.jpeg" width="420px"/></td>
+ <td><img src="images/try2.png" width="400px"/></td>
+ <td><img src="images/try2.jpeg" width="400px"/></td>
  </tr>
 </table>
 
