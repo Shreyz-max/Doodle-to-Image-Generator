@@ -54,12 +54,13 @@ Run app.py <code>streamlit run streamlit/app.py</code>
 and its corresponding id in the coco dataset.
 
 <h2 id="FineTuning">Fine Tuning the model</h2>
+
 Here are a few things that I did.
 So basically, GauGAN is trained to take a black and white semantic map and convert it into a realisitc image.
 So, once we have a painted image, it is converted into black and white using its labels. I have selected a few labels from COCO
 dataset. You have 182 labels. So, you can choose any of the labels. Just select a few labels from your choice from COCO dataset.
 Change the color based on what you like in `label_colors.py`. Make sure that the ids of those labels match those of the COCO dataset.
-Also make the changes in the select-box of `app.py`.
+Also make the changes in the select-box of `app.py` .
     In case you want to use a different model with different datasets. Download the model from here. Use `latest_net_G.pth` for this.
 
 <h2 id="ModelLoss">Model and Loss</h2>
