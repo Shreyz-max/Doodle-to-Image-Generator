@@ -31,7 +31,9 @@ Here is the working of GauGAN in real life deployed on a website.
 <h2 id="Dataset">Dataset</h2>
 Originally in the SPADE paper, the model was trained on 3 different datasets namely COCO, cityscapes and  ADE20K. Although, Flcikr dataset was also used however I am not so sure about the segmentation
 of that dataset. The model has been trained on 8 V100 GPUs that equals 128 GB of memory. So, to avoid any of such memory problems
-I used a pretrained dataset. However, I tried training on custom dataset as well. You can find the details to that here.
+I used a pretrained dataset. However, I tried training on custom dataset as well. You can find the details to that 
+[here](https://blog.paperspace.com/gaugan-training-on-custom-datasets)
+
 
 <h2 id="Setup">Setup</h2>
 
