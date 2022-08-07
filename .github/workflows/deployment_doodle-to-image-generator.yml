@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'doodle-to-image-generator'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A7553B85907849C09A5371C2C40B466A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1B08C85672004BBC9CF4F16BB5EF0162 }}
