@@ -1,5 +1,5 @@
 # Doodle-to-Image-Generator
-This is an automatic realistic image generator from doodles using GauGan which has been deployed on streamlit. You can check it out [here](https://shreyz-max-doodle-to-image-generator-streamlitapp-miq4ua.streamlitapp.com/).
+This is an automatic realistic image generator from doodles using GauGan which has been deployed on streamlit. You can check it out [here](https://shreyz-max-doodle-to-image-generator-streamlitapp-miq4ua.streamlitapp.com/). In case it does not work check it out here <a href="https://huggingface.co/spaces/Sheyz-max/doodle-to-image-generator">here</a>.
 This uses GauGAN to generate the images given the semantic maps or doodles here.
 The model is based on Conditional GAN where given a particular image and a condition the realistic image gets generated.
 
